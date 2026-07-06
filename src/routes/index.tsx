@@ -227,6 +227,12 @@ function Home() {
         </div>
       </section>
 
+      {/* MEET THE CHEF */}
+      <ChefSection />
+
+      {/* AWARDS & RECOGNITION */}
+      <AwardsSection />
+
       {/* COMBOS TEASER */}
       <section className="py-28">
         <div className="mx-auto max-w-7xl px-6">
