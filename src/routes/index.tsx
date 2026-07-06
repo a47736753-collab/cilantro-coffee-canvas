@@ -6,6 +6,8 @@ import { ArrowUpRight, Coffee, Leaf, Sparkles, Star, MapPin, Clock } from "lucid
 import { Navbar } from "@/components/site/Navbar";
 import { Footer } from "@/components/site/Footer";
 import { OrderButtons } from "@/components/site/OrderButtons";
+import { ChefSection } from "@/components/site/ChefSection";
+import { AwardsSection } from "@/components/site/AwardsSection";
 import { MENU, COMBOS, CONTACT } from "@/lib/menu-data";
 
 import hero from "@/assets/hero.jpg";
@@ -224,6 +226,12 @@ function Home() {
           </div>
         </div>
       </section>
+
+      {/* MEET THE CHEF */}
+      <ChefSection />
+
+      {/* AWARDS & RECOGNITION */}
+      <AwardsSection />
 
       {/* COMBOS TEASER */}
       <section className="py-28">
